@@ -17,4 +17,4 @@ Fonction secondaire par Meniar
 ## DOCUMENTATION
 Le programme principal "projethackathonversion4.py" ouvre la photo "photohackathon", contient un "input" qui va permettre à l'utilisateur de choisir l'endroit où se trouve la barre, qui elle-même va être coloré grâce à la fonction "meniar.py".
 
-La fonction "meniar.py" permet de mettre un filtre coloré de l'image du programme.
+La fonction "meniar.py" demande à l'utilisateur de choisir une couleur (RGB) et donc permet de mettre un filtre coloré sur l'image.
