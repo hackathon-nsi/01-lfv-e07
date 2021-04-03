@@ -3,7 +3,7 @@
 **SUJET** : https://github.com/hackathon-nsi/h7n-nsi-01
 
 **PROGRESSION** (*changer les - par des # | # = 5%*)<br />
-|#########-----------|
+|#############-------|
 
 <hr />
 <!-- ne pas effacer les lignes ci-dessus et mettre à jour la progression régulièrement -->
@@ -12,9 +12,9 @@
 
 Programme principal par Iris
 
-Fonction qui fait des trous, par Meniar
+Fonction secondaire par Meniar
 
 ## DOCUMENTATION
-Le programme principal "projethackathon_iris.py" ouvre la photo, contient un "input" qui va permettre à l'utilisateur de choisir l'endroit où se trouve la barre.
+Le programme principal "projethackathonversion4.py" ouvre la photo "photohackathon", contient un "input" qui va permettre à l'utilisateur de choisir l'endroit où se trouve la barre, qui elle-même va être coloré grâce à la fonction "meniar.py".
 
-La fonction "meniar.py" doit faire des trous (carrés, triangles, ronds) dans l'image à plusieurs endroits.
+La fonction "meniar.py" permet de mettre un filtre coloré de l'image du programme.
