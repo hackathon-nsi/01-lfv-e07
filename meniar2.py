@@ -4,7 +4,7 @@ from PIL import Image
 import urllib.request
 img= Image.open("images/photohackathon.jpg").convert("RGB")
 
-couleur = input (" choisissez la couleur de la photo, rouge, vert ou bleu")
+couleur = input (" choisissez la couleur de la photo: rouge, jaune, violet, vert, cyan, blanc ou bleu")
 #print(img.size)
 width,height = img.size
 pixels= img.load()
@@ -26,6 +26,22 @@ for py in range(height):
             newr = 0
             newg = g
             newb = 0
+        if couleur == "jaune":
+            newr = r
+            newg = g
+            newb = 0
+        if couleur == "violet":
+            newr = r
+            newg = 0
+            newb = b
+        if couleur == "cyan":
+            newr = 0
+            newg = g
+            newb = b
+        if couleur == "blanc":
+            newr = r
+            newg = g
+            newb = b
 
 
         pixels[px,py] = (newr,newg,newb)
