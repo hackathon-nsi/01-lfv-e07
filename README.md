@@ -15,6 +15,6 @@ Programme principal par Iris
 Fonction secondaire par Meniar
 
 ## DOCUMENTATION
-Le programme principal "projethackathonversion4.py" ouvre la photo "photohackathon", contient un "input" qui va permettre à l'utilisateur de choisir l'endroit où se trouve la barre, qui elle-même va être coloré grâce à la fonction "meniar1.py".
+Le programme principal "projethackathon_iris.py" ouvre la photo "photohackathon", contient un "input" qui va permettre à l'utilisateur de choisir l'endroit où se trouve la barre, qui elle-même va être coloré grâce à la fonction "meniar1.py".
 
-La fonction "meniar2.py" demande à l'utilisateur de choisir une couleur (RGB) et donc permet de mettre un filtre coloré sur l'image.
+La fonction "meniar.py" demande à l'utilisateur de choisir une couleur (RGB) et donc permet de mettre un filtre coloré sur l'image.
