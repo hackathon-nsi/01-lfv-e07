@@ -46,4 +46,4 @@ def meniar():
                 newg = g
                 newb = b
             img.putpixel((px,py),(newr,newg,newb))
-            img.show()
+    img.show()
