@@ -2,6 +2,7 @@ from PIL import Image
 
 import urllib.request
 img= Image.open("photohackathon.jpg").convert("RGB")
+
 couleur = input (" choisissez la couleur de la photo: rouge, jaune, violet, vert, cyan, blanc ou bleu ")
 
 
@@ -12,7 +13,6 @@ pixels= img.load()
 
 
 #def meniar():
-
 for py in range(height):
         for px in range(width):
             r,g,b = img.getpixel((px,py))
@@ -47,3 +47,5 @@ for py in range(height):
                 newb = b
             img.putpixel((px,py),(newr,newg,newb))
 img.show()
+
+
